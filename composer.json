@@ -1,0 +1,20 @@
+{
+    "name": "abranasays/fpdf-easytable",
+    "description": "Fork from fpdf-easytable",
+    "version": "v3.3.1",
+    "time": "2023-06-11",
+    "keywords": ["easytable", "fpdf", "abranasays"],
+    "license": "proprietary",
+    "type": "project",
+    "authors": [{"name": "Abdul Basit Rana", "email": "abranasays@gmail.com"}],
+    "autoload": {
+        "classmap": [
+            "exfpdf.php",
+            "easyTable.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.6",
+        "setasign/fpdf": "^1.8"
+    }
+}
